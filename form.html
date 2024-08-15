@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>New Horizon Forms</title>
+  </head>
+  <body>
+    <h1>New Horizon </br></h1>
+        <h2>Admission fill up form</h1>
+    <form>
+      <div>
+        <label>Name:</label>
+        <input type="text" name="name" placeholder="Enter your name" required />
+      </div>
+      <br />
+      <div>
+        <label>Password:</label>
+        <input type="password" name="password" />
+      </div>
+      <br />
+      <div>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male" />
+        <label>Male</label>
+        <input type="radio" name="gender" value="female" />
+        <label>Female</label>
+      </div>
+      <br />
+      <div>
+        <label>feild </label>
+        <select name="Faculty">
+          <option>Select an option..</option>
+          <option value="Science" selected>Science</option>
+          <option value="Management">Management</option>
+          <option value="Hotel Management">Hotel Management</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label>Message:</label><br />
+        <textarea name="message" cols="30" rows="4"></textarea>
+      </div>
+      <br />
+      <div>
+        <input type="checkbox" name="Terms" />
+        <label>Do you want to agree all the terms and continue?</label>
+      </div>
+      <br />
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
